@@ -1,0 +1,14 @@
+# Data sets and generated CSVs
+data/
+*.csv
+
+# Python Virtual Environments & Caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# IDE Settings
+.vscode/
+.idea/
