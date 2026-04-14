@@ -1,21 +1,4 @@
-"""
-🏆 Weekly Project: Titanic Survival Predictor
-=============================================
-AI Engineering Mentorship — Week 3
 
-Deliverable: Python script + evaluation report (printed to terminal)
-
-Pipeline:
-  1. Load and clean data (handle missing Age, Cabin, Embarked)
-  2. Engineer at least 2 new features (FamilySize, IsAlone, Title)
-  3. Train 3 models: Logistic Regression, Decision Tree, Random Forest
-  4. Compare using accuracy, precision, recall, and F1
-  5. Print a final report showing which model won and why
-
-Stretch goals:
-  - Tune Random Forest hyperparameters using GridSearchCV
-  - Plot a learning curve to visualise train vs test performance gap
-"""
 
 import sys
 import os
