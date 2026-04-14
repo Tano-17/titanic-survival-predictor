@@ -10,7 +10,12 @@ This project contains a machine learning pipeline to predict survival on the Tit
 
 In this project, I developed an end-to-end machine learning pipeline to analyze the classic Titanic dataset and predict passenger survival. I began by rigorously cleaning the raw Kaggle data, handling missing values, and engineering informative new features like family sizes, solo-traveler flags, and name-based titles. I then trained three distinct classification models: Logistic Regression, a Decision Tree, and a Random Forest algorithm. After comparing their accuracy, precision, recall, and F1 scores, the Logistic Regression model emerged as the unexpected winner with an accuracy of 84.4% and an F1 score of 0.79. Despite being a relatively simple model, it generalized exceptionally well once the numeric features were cleanly scaled. I also pushed the pipeline further by using `GridSearchCV` to systematically hunt for the most optimal Random Forest hyperparameters. A comprehensive learning curve was plotted to accurately track the training performance against validation scores, making it clear how the models scale. Finally, all the pipeline's findings were exported successfully to a `submission.csv` format for direct leaderboard scoring on Kaggle!
 
-*(You can drag and drop a screenshot of your terminal output here!)*
+![output](https://github.com/user-attachments/assets/002f5d76-3f19-4fe3-bef9-63a405cdd02a)
+![output 2](https://github.com/user-attachments/assets/e5c50dae-2b30-4dfd-9498-18fff4bf6da1)
+![output 3](https://github.com/user-attachments/assets/43619219-4ea4-4ce6-9fd6-b89e68e3f406)
+![output 4](https://github.com/user-attachments/assets/80899bf6-c19d-48ea-ab11-d9dc21ff785c)
+
+
 
 Below is the learning curve showing the performance gap between the training set and validation set:
 
